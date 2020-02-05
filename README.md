@@ -1,4 +1,4 @@
-# google-cloud-OCR---wordMappingToLines
+# google-cloud-OCR-wordMappingToLines
 Map the OCR extracted text to lines ( using Google Cloud OCR API results)
 
 Google Cloud Optical Recognition API detects and extracts text from any image 
