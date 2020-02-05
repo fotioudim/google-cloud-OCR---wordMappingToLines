@@ -1,3 +1,13 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+
+import javax.json.Json;
+import javax.json.JsonArray;
+import javax.json.JsonObject;
+import javax.json.JsonReader;
+import javax.json.JsonValue;
+
 // jsonString is the String value returned from the Google Vision OCR API and the words are given in random order
 // We map the strings in lines, append line breaks and conclude the result to a html string
 public String textLineMapping(String jsonString) throws IOException, EException {
